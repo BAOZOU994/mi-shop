@@ -1,0 +1,264 @@
+body{
+  margin: 0px;
+  font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+.header{
+  height: 40px;
+  width: 100%;
+  font-size: 12px;
+  color: #b0b0b0;
+  background: #333;
+}
+.container{
+  height: 100%;
+  width: 90%;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-nav-ul{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+}
+.header-nav-ul ul{
+  list-style-type: none;
+  margin: 0px auto;
+  padding: 0px;
+}
+.header-nav-ul ul li{
+  display: inline;
+  padding: 0px 6px 0px 6px;
+  border-right: 2px solid #424242;
+}
+.header-nav-ul ul .select{
+  border-right: none;
+}
+.header-nav-ul ul li a{
+  text-decoration: none;
+  color: #b0b0b0;
+}
+.header-nav-ul ul li a:hover{
+  color: #ffffff;
+}
+.header-right{
+  float: right;
+  height: 40px;
+  line-height: 40px;
+}
+.header-right  ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px auto;
+}
+.header-right ul li{
+  display: inline;
+  padding: 0px 6px 0px 6px;
+  border-right: 2px solid #424242;
+}
+.header-right ul .message{
+  border-right: none;
+}
+.shop{
+  display: inline-block;
+  float: right;
+  position: relative;
+  z-index: 32;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #b0b0b0;
+  background: #424242;
+  margin-left: 15px;
+}
+.shop-car{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url("../images/shop.png");
+  background-position: center;
+  background-size: 20px 20px;
+  vertical-align: -4px;
+  margin-right: 5px;
+}
+.site-header{
+  height: 100px;
+  width: 100%;
+}
+.header-logo{
+  float: left;
+  width: 62px;
+  margin-top: 22px;
+}
+.logo-mi{
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  background-image: url("../images/mi.png");
+  background-position: center;
+  background-size: 55px 55px;
+}
+.site-header-nav-ul{
+  float: left;
+  height: 100%;
+  width: 850px;
+  line-height: 80px;
+}
+.site-header-nav-ul ul{
+  list-style-type: none;
+  font-size: 16px;
+  margin: 0px;
+  padding-top: 12px;
+}
+.site-header-nav-ul ul li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+.site-header-nav-ul ul li a{
+  text-decoration: none;
+  color: black;
+}
+.site-header-nav-ul ul li a:hover{
+  color: orange;
+}
+.site-header-search{
+  float: right;
+  position: relative;
+  width: 296px;
+  margin-top: 25px;
+  text-align:right;
+}
+.search-text{
+  position: absolute;
+  top: 0;
+  right: 50px;
+  width: 223px;
+  height: 48px;
+  padding: 0 10px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+  line-height: 48px;
+  outline: 0;
+}
+.search-submit{
+  position: absolute;
+  width: 50px;
+  height: 48px;
+  border: 1px solid #e0e0e0;
+  line-height: 24px;
+  font-size: 24px;
+  background-image: url("../images/sousuo.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  padding: 0px;
+  right: 0;
+}
+.search-text:hover{
+  border-color: orange;
+}
+.search-text:focus{
+  border-color: orange;
+}
+.search-submit:hover{
+  background-color: orange;
+  border-color: orange;
+}
+.site-category{
+  float: left;
+  position: absolute;
+  top: 140px;
+  width: 234px;
+  height: 460px;
+  font-size: 14px;
+  z-index: 20;
+}
+.site-category ul{
+  height: 420px;
+  border: 0;
+  margin: 0px;
+  padding: 20px 0px;
+  list-style-type: none;
+  background: rgba(0,0,0,0.6);
+}
+.site-category ul li{
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+}
+.site-category ul li a{
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.jiantou{
+  display: block;
+  float: right;
+  width: 16px;
+  height: 16px;
+  padding-right: 20px;
+  background-image: url("../images/jiantou.png");
+  background-repeat:no-repeat;
+  background-size: 16px 16px;
+  margin-top: 11px;
+}
+.site-category ul li:hover{
+  background-color: #ff6700;
+}
+.home-hero{
+  height: 460px;
+  z-index: 21;
+}
+.silder-image{
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+  position: relative;
+}
+.side{
+  height: 460px;
+  width: 100%;
+  position: absolute;
+}
+.silde a img{
+  float: left;
+  height: 460px;
+  width: 100%;
+}
+
+.search-hot{
+  position: absolute;
+  top: 14px;
+  right: 62px;
+  z-index: 2;
+  text-align: right;
+  display:block;
+}
+
+.search-hot > a{
+  margin-left: 5px;
+  padding: 0 5px;
+  font-size: 12px;
+  background: #eee;
+  color: #757575;
+  text-decoration: none;
+  background: #eee;
+  color: #757575;
+}
+
+.he{
+  position: relative;
+width: 296px;
+height: 50px;
+}
+.container img{
+  width: 100%;
+  height: 100%;
+}
